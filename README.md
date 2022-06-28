@@ -26,4 +26,20 @@ Step 4: Crop paper
 ![cropped image](output/crop.png "Cropped Image")  
 Step 5: Detect foot bounding box  
 ![foot bouding box image](output/foot_rect.png "Foot Bouding Box")
-
+## Convert to shoe size table
+| Length (cm) | Width (cm) | Shoe size |
+| --- | --- | --- |
+| 21          | 7.5 - 8 | 32 |
+| 21.1 - 21.5 | 8       | 33 |
+| 21.6 - 22   | 8 - 8.5 | 34 |
+| 22.1 - 22.5 | 8.5     | 35 |
+| 22.6 - 23   |	8.5 - 9 | 36 |
+| 23.1 - 23.5 | 9       | 37 |
+| 23.6 - 24   |	9 - 9.5 | 38 |
+| 24.1 - 24.5 |	9.5     | 39 |
+| 24.6 - 25   |	9.5 - 10  | 40 |
+| 25.1 - 25.5 |	10        | 41 |
+| 25.6 - 26   |	10 - 10.5 | 42 |
+| 26.1 - 26.5 |	10.5      | 43 |
+| 26.6 - 27   |	10.5 - 11 | 44 |
+| > 27        | > 11      | 45 |
