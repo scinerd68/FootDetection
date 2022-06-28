@@ -14,6 +14,13 @@ def load_image(image_file):
 	return img
 
 st.header("Foot Size Measurement")
+st.subheader("Upload image")
+st.markdown(
+    """The uploaded image must satisfy the following requirements:
+- Foot should be on an A4 paper, with the heel touching 1 edge of the paper
+- Floor color should not be white
+- Paper must be completly visible (all 4 corners are visible)"""
+)
 uploaded_file = st.file_uploader("Choose an image", type=["png","jpg","jpeg"])
 if uploaded_file is not None:
     img = load_image(uploaded_file)
